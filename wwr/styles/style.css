@@ -4,7 +4,6 @@
   max-width: 1600px;
   margin: 0 auto
 }
-
 #background {
   background-color: #283618;
   color: #fefae0;
@@ -22,26 +21,21 @@ nav a {
   text-decoration: none;
   padding: 35px;
 }
-
 hero-msg h1 {
   text-align: center;
 }
-
 hero-msg h4 {
   text-align: center;
 }
-
 .button-box {
   text-align: center;
 }
-
 main section {
   text-align: center;
 }
 main section img {
   box-sizing: border-box;
 }
-
 body {
   background-color: #0F4C5C; 
   color: #fefae0;
@@ -91,15 +85,6 @@ h4 {
 .rivers-card, .camping-card, .rapids-card {
   margin: 200px 0;
 }
-/* .rivers-card {
-  margin: 200px 0;
-}
-.camping_card {
-  margin: 200px 0;
-}
-.rapids-card{
-  margin: 200px 0;
-} */
 .join {
   background-color: #606C38;
   color: #fefae0;
@@ -141,7 +126,6 @@ h4 {
   font-size: .8em;
   padding-bottom: 15px;
 }
-
 footer {
   background-color: #606C38;
   color: #fefae0;
