@@ -244,7 +244,7 @@ h5 {
 
 .faqs-box {
   display: inline-grid;
-  grid-template-columns:repeat(1, 400px);
+  /* grid-template-columns:1; */
   grid-template-rows: repeat(6, 1fr);
   margin-top: 20px;
   margin-left: 50px;
