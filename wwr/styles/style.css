@@ -244,7 +244,7 @@ h5 {
 
 .faqs-box {
   display: inline-grid;
-  grid-template-columns:(1, 400px);
+  grid-template-columns:repeat(1, 400px);
   grid-template-rows: repeat(6, 1fr);
   margin-top: 20px;
   margin-left: 50px;
@@ -350,7 +350,6 @@ h5 {
   margin-right: 30px;
   grid-column: 1;
   grid-row: 6;
-  /* grid-column: 5/9; */
 }
 .dropdown {
   position: relative;
