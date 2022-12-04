@@ -457,12 +457,17 @@ textarea {
 
 .button {
   /* Align buttons with the text fields */
+  
   padding-left: 90px; /* same size as the label elements */
 }
 
 button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
+  background-color: #606C38;
+  color: #fefae0;
+  font-size: 19px;
+  padding: 10px;
   margin-left: 0.5em;
 }
 
