@@ -104,7 +104,7 @@ h1{
   padding: 20px 20px;
   background-color: white;
   max-width: 1600px;
-  /* min-width: 650px; */
+  min-width: 650px;
   justify-content: space-around;
 }
 
@@ -130,10 +130,11 @@ h1{
     font-size: 25px;
 }
 .home-img { 
-  margin: 0 auto;
+  /* margin: 0 auto; */
   width:600px;
   padding-left: 80px;
   grid-column: 2;
+  grid-row:1/3;
 }
 
 
