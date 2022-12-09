@@ -3,6 +3,7 @@
 #content {
   max-width: 1600px;
   margin: 0 auto;
+  min-width: 650px;
 }
 
 #hero-img {
