@@ -207,7 +207,6 @@ h6{
 .trouble-photos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1;
 }
 .container1 {
   grid-column: 1;
