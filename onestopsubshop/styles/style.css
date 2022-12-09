@@ -145,5 +145,126 @@ footer .social img {
   padding-top: 15px;
 }
 
+/* -----------TROUBLESHOOTING BEGINS----------------- */
+h3{
+  text-align: center;
+  color: white;
+  font-family: 'Noto Serif', 'Georgia', 'Garamond';
+  padding-top: 40px;
+  font-size: 48px;
+}
+h4 {
+  color:#222680;
+  font-size: 28px;
+  text-align: center;
+  font-family: 'Noto Serif', 'Georgia', 'Garamond';
+  font-size: 48px;
+
+}
+h5{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 75px;
+}
+h6{
+    color: #222680;
+    font-family: 'Noto Serif', 'Georgia', 'Garamond';
+    font-size: 48px;
+    padding-left: 80px;
+    margin-top: 80px;
+
+}
+#ghost-box{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 180px);
+    margin-top: 80px;
+}
+.ghost-img {
+    grid-column: 2;
+    width: 650px;
+    padding-top: 75px;
+    padding-left: 45px;
+}
+.ghost-text{
+    font-size: 32px;
+    grid-column: 1;
+    grid-row: 2/4;
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right:30px;
+}
+.trouble-photos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+}
+.container1 {
+  grid-column: 1;
+  position: relative;
+  width: 100%;
+}
+.container2 {
+  grid-column: 2;
+  position: relative;
+  width: 100%;
+}
+.container3 {
+  grid-column: 3;
+  position: relative;
+  width: 100%;
+}
+
+.header-back{
+    background-color: #222680;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+  
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+  
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #B22099;
+}
+  
+
+.container1:hover .overlay {
+    opacity: 1;
+}
+
+.container2:hover .overlay {
+    opacity: 1;
+}
+
+.container3:hover .overlay {
+    opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 
