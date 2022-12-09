@@ -186,6 +186,7 @@ h6{
 #ghost-box{
     background-color: white;
     display: grid;
+    position: relative;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 180px);
     margin-top: 80px;
@@ -197,12 +198,14 @@ h6{
     padding-left: 45px;
 }
 .ghost-text{
+    position: relative;
     font-size: 32px;
     grid-column: 1;
     grid-row: 2/4;
     padding-top: 40px;
     padding-left: 70px;
     padding-right:30px;
+    min-width: 400px;
 }
 .trouble-photos{
     display: grid;
