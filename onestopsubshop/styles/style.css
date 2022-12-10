@@ -200,7 +200,6 @@ h6{
 .ghost-box{
   display: grid;
   grid-column: 1/4;
-  margin: auto 0;
   background-color: white;
   justify-content: space-around;
   margin-top: 80px;
