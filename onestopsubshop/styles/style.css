@@ -307,6 +307,7 @@ h7{
 .supplies-box{
   display: grid;
   grid-column: 1/4;
+  grid-template-rows: 250px 3fr;
   background-color: white;
   justify-content: space-around;
   margin-top: 80px;
