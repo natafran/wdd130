@@ -432,4 +432,33 @@ button {
   margin-left: 0.5em;
 }
 
+/* ---------------MEDIA BEGINS------------------ */
+
+@media screen and (max-width: 1600px) {
+  #hero, .home-grid {
+      display: block;
+      height: auto;
+  }
+  nav, footer {
+      flex-direction: column;
+  }
+  nav a {
+      display: block;
+      padding: 15px;
+  }
+  #hero {
+      margin-top: 0;
+  }
+
+  #background {
+      display: none;
+  }
+
+  footer {
+      margin-top: 25px;
+  }
+}
+
+
+
 
