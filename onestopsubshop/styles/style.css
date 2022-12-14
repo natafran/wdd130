@@ -304,7 +304,6 @@ h7{
 
 
 }
-
 .supplies-box{
   display: grid;
   grid-column: 1/4;
@@ -317,7 +316,6 @@ h7{
 .sub-printer {
   grid-column: 1/2;
 }
-
 
 .print-img {
   grid-column: 2/4;
