@@ -289,4 +289,75 @@ h6{
   text-align: center;
 }
 
+/* ---------------------SUPPLIES BEGINS--------------------- */
+.supplies-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+
+}
+
+h7{
+  color: #222680;
+  font-family: 'Noto Serif', 'Georgia', 'Garamond';
+  font-size: 48px;
+  padding-left: 35px;
+
+
+}
+
+.supplies-box{
+  display: grid;
+  grid-column: 1/4;
+  background-color: white;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.sub-printer {
+  grid-column: 1/2;
+}
+
+
+.print-img {
+  grid-column: 2/4;
+  grid-row: 1/3;
+  width: 650px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.print-text{
+  position: relative;
+  font-size: 32px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding-left: 70px;
+  padding-right:30px;
+  min-width: 400px;
+}
+
+.heat{
+  grid-column: 2/4;
+
+}
+
+.heat-text{
+  position: relative;
+  font-size: 32px;
+  padding-top: 100px;
+  padding-right: 70px;
+  padding-left: 30px;
+  padding-bottom: 90px;
+}
+.heat-img {
+  grid-column:1/2;
+  grid-row:3/4;
+  width: 650px;
+}
+
+.blanks-img{
+  width: 1600px;
+}
+
+
 
