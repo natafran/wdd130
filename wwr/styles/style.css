@@ -399,10 +399,8 @@ h5 {
 /* --------------------CONTACTUS PAGE BEGINS -------------------- */
 form {
   /* Center the form on the page */
-  /* margin: 0 auto; */
+  margin: 0 auto;
   margin-top: 200px;
-  margin-left: 530px;
-
   width: 400px;
   /* Form outline */
   padding: 1em;
